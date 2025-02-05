@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /*min-height: 100vh;
+    /*height: 100vh; /* Ocupa 100% da altura da tela */    
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #f6f6f6;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;    
+    padding: 20px; /* Adiciona espaçamento abaixo do cabeçalho */
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px; /* Adiciona espaçamento entre os links */
+}
+
+.cabecalho__menu__link{    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;    
+}
+
+.apresentacao {    
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se ajustem conforme a tela */
+    align-items: center;
+    justify-content: center;
+    width: 90%; /* Define uma largura máxima */
+    max-width: 1200px; /* Limita a largura */
+    gap: 20px; /* Reduz espaço entre os elementos */
+    margin-top: 40px; /* Adiciona espaçamento entre o cabeçalho e o corpo da página */
+}
+
+.apresentacao__conteudo {
+    max-width: 500px;
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    text-align: center; /* Centraliza o texto */
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 28px; /* Reduz o tamanho do título para melhor ajuste */
+    font-family: "Krona One", sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f6f6f6; /* Garante que o texto fique visível no fundo preto */
+    text-align: center; /* Centraliza o texto */
+}
+
+.apresentacao__links__link {
+    /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+    color: aqua;
+}
+
+.apresentacao_edit__imagem {    
+        width: 500px; /* Aumenta a largura */
+        height: 500px; /* Aumenta a altura */
+        border-radius: 50%;
+        border: 5px solid #22D4FD;
+        object-fit: cover; /* Mantém a proporção e evita distorção */
+    } 
+
+.rodape {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px; /* Reduz a altura mantendo a proporcionalidade */
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;        
+    background-color: #22D4FD;
+    color: white;
+    border-top: 2px solid bisque; /* Adiciona uma linha no topo do rodapé */
+    border-bottom: 2px solid bisque; /* Adiciona uma linha no topo do rodapé */
+    margin-top: 40px; /* Adiciona espaçamento acima do rodapé */
+}
+    
+
+
+
+strong{
+    color: #22D4FD;
+}
